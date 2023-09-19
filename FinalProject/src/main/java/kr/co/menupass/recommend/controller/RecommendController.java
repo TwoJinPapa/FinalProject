@@ -82,6 +82,7 @@ public class RecommendController {
         model.addAttribute("pi", pi);
         model.addAttribute("searchTxt", searchTxt);
         model.addAttribute("currentPage", currentPage); // 현재 페이지
+	model.addAttribute("user", session.getAttribute("memberNo"));    
         model.addAttribute("msg", (String) session.getAttribute("msg"));
     	model.addAttribute("status", (String) session.getAttribute("status"));
     	session.removeAttribute("msg");
