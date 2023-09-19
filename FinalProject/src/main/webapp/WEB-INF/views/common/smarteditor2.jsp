@@ -1,2 +1,0 @@
-<script type="text/javascript" src="/resources/smarteditor/js/HuskyEZCreator.js" charset="utf-8"></script>
-<script type="text/javascript" src="/resources/js/common/smarteditor2.js" charset="utf-8"></script>
